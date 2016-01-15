@@ -21,4 +21,5 @@ You can configure params in trafficsats.py:ip List,username,password
 
 ### More
 
-multi-threads tools will be realeased.
+multi-threads:
+python trafficstats.py
