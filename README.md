@@ -1,6 +1,6 @@
 ##traffic stats
 
-#### traffic statistics for linux system.
+#### traffic statistics for linux first interface:eth0.
 
 ### exec
 
