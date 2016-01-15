@@ -22,4 +22,4 @@ You can configure params in trafficsats.py:ip List,username,password
 ### More
 
 multi-threads:
-python trafficstats.py
+python trafficstatsthread.py
