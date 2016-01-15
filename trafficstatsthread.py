@@ -2,6 +2,7 @@
 #-*- coding: utf-8 -*-
 
 import paramiko
+import threading
 
 def traffic(ip,username,passwd):
     try:
@@ -22,7 +23,10 @@ if __name__=='__main__':
     ip_list=['192.168.1.55','192.168.1.100','192.168.1.101','192.168.1.200','192.168.1.201']
     username = "root"  #用户名
     passwd = ""    #密码
+    result = []
     print '\nIP\t\tRX(G)\tTX(G)'
     for ip in ip_list:
-        traffic(ip,username,passwd)
+        th=threading.Thread(target=traffic,args=(ip,username,passwd))
+        th.start()
+        th.join()
     print '\n'
