@@ -1,6 +1,6 @@
 ##traffic stats
 
-#### traffic statistics for linux first interface:eth0.
+#### traffic statistics for linux first interface:eth0, without dependences.
 
 ### exec
 
